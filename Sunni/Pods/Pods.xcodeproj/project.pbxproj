@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CD4F3FD6E5992021778E4995D619DB /* HideKeyboardWhenTappedAround-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A4A7980EE215A1E3E26D1355CC713E /* HideKeyboardWhenTappedAround-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		276FB83569F59BAA8F36493252986A87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3715DE532FE1FACAEA4538CB900EFB64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		511AE939FDD8FAF848468196740F288C /* Pods-Sunni-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2156C76851CEB379AAF39AA2961B6CF /* Pods-Sunni-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1849D5E82E99E25CC59BA5C46180C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382CF77A1A902E3C7190F6AA31CBDAA6 /* ViewController.swift */; };
+		AAA032DB7432785BA6CB470F4B3BED80 /* HideKeyboardWhenTappedAround-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB709BDD4A57B50395A2AA3A2BE1CE7D /* HideKeyboardWhenTappedAround-dummy.m */; };
+		E39A72B9F10196D460CFAB4404367182 /* Pods-Sunni-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285315FDA1DC50C36639470B5EB3BB9 /* Pods-Sunni-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D532B66C127678B38F74F1036CCDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E03B0815387AE5EA630CCBF6F803594;
+			remoteInfo = HideKeyboardWhenTappedAround;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF62E124AC07E8B0C77841595672BFA /* HideKeyboardWhenTappedAround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HideKeyboardWhenTappedAround.debug.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		382CF77A1A902E3C7190F6AA31CBDAA6 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = HideKeyboardWhenTappedAround/ViewController.swift; sourceTree = "<group>"; };
+		3A483CFAEAB4645CD22D852A74E84B50 /* HideKeyboardWhenTappedAround.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HideKeyboardWhenTappedAround.modulemap; sourceTree = "<group>"; };
+		3CF94DA1AC8DB9D3B45AC8E64B56C86C /* Pods-Sunni-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sunni-acknowledgements.plist"; sourceTree = "<group>"; };
+		3ED3C8A202DBFF5FB18F4A356FB90A5C /* Pods-Sunni-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sunni-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59F203D00BBAF6FCB887C248F5AD7F37 /* HideKeyboardWhenTappedAround-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HideKeyboardWhenTappedAround-prefix.pch"; sourceTree = "<group>"; };
+		776B44A15CDC7B4CC4CE650AE0526E36 /* Pods-Sunni-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sunni-frameworks.sh"; sourceTree = "<group>"; };
+		7A5D112788D096BFBD20C98567B0133E /* Pods-Sunni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunni.debug.xcconfig"; sourceTree = "<group>"; };
+		8285315FDA1DC50C36639470B5EB3BB9 /* Pods-Sunni-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sunni-dummy.m"; sourceTree = "<group>"; };
+		8671251032D17D6C5C989F2108CDA630 /* Pods-Sunni-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sunni-Info.plist"; sourceTree = "<group>"; };
+		95CBA271A1B4F8C00BFC1D03BC472EAD /* Pods-Sunni.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sunni.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A047A84EC4B82449AC0FCCE427584BD6 /* HideKeyboardWhenTappedAround-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HideKeyboardWhenTappedAround-Info.plist"; sourceTree = "<group>"; };
+		A3EEAE1B875BB43B2E4EAE35DED940C0 /* HideKeyboardWhenTappedAround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HideKeyboardWhenTappedAround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB709BDD4A57B50395A2AA3A2BE1CE7D /* HideKeyboardWhenTappedAround-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HideKeyboardWhenTappedAround-dummy.m"; sourceTree = "<group>"; };
+		C6A4A7980EE215A1E3E26D1355CC713E /* HideKeyboardWhenTappedAround-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HideKeyboardWhenTappedAround-umbrella.h"; sourceTree = "<group>"; };
+		CF2FC65446BB7A5E977B936310CAD736 /* HideKeyboardWhenTappedAround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HideKeyboardWhenTappedAround.release.xcconfig; sourceTree = "<group>"; };
+		DC01AE8C8D1A845FD22D0223725D571F /* Pods-Sunni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sunni.release.xcconfig"; sourceTree = "<group>"; };
+		E2156C76851CEB379AAF39AA2961B6CF /* Pods-Sunni-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sunni-umbrella.h"; sourceTree = "<group>"; };
+		FCFAFC5470FE1387ABAD746801F92909 /* Pods_Sunni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sunni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65788678D11CA1615C461AA78D0A6E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3715DE532FE1FACAEA4538CB900EFB64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C0F2EF64027D2EA035FD566AED3718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276FB83569F59BAA8F36493252986A87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FBA46951512C2FC94B83737AB7FB5BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A483CFAEAB4645CD22D852A74E84B50 /* HideKeyboardWhenTappedAround.modulemap */,
+				BB709BDD4A57B50395A2AA3A2BE1CE7D /* HideKeyboardWhenTappedAround-dummy.m */,
+				A047A84EC4B82449AC0FCCE427584BD6 /* HideKeyboardWhenTappedAround-Info.plist */,
+				59F203D00BBAF6FCB887C248F5AD7F37 /* HideKeyboardWhenTappedAround-prefix.pch */,
+				C6A4A7980EE215A1E3E26D1355CC713E /* HideKeyboardWhenTappedAround-umbrella.h */,
+				0BF62E124AC07E8B0C77841595672BFA /* HideKeyboardWhenTappedAround.debug.xcconfig */,
+				CF2FC65446BB7A5E977B936310CAD736 /* HideKeyboardWhenTappedAround.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HideKeyboardWhenTappedAround";
+			sourceTree = "<group>";
+		};
+		11C76068B32C9140EC55CE8B1C33F276 /* Pods-Sunni */ = {
+			isa = PBXGroup;
+			children = (
+				95CBA271A1B4F8C00BFC1D03BC472EAD /* Pods-Sunni.modulemap */,
+				3ED3C8A202DBFF5FB18F4A356FB90A5C /* Pods-Sunni-acknowledgements.markdown */,
+				3CF94DA1AC8DB9D3B45AC8E64B56C86C /* Pods-Sunni-acknowledgements.plist */,
+				8285315FDA1DC50C36639470B5EB3BB9 /* Pods-Sunni-dummy.m */,
+				776B44A15CDC7B4CC4CE650AE0526E36 /* Pods-Sunni-frameworks.sh */,
+				8671251032D17D6C5C989F2108CDA630 /* Pods-Sunni-Info.plist */,
+				E2156C76851CEB379AAF39AA2961B6CF /* Pods-Sunni-umbrella.h */,
+				7A5D112788D096BFBD20C98567B0133E /* Pods-Sunni.debug.xcconfig */,
+				DC01AE8C8D1A845FD22D0223725D571F /* Pods-Sunni.release.xcconfig */,
+			);
+			name = "Pods-Sunni";
+			path = "Target Support Files/Pods-Sunni";
+			sourceTree = "<group>";
+		};
+		356F66D9C09EB742FBBDD19230E671CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11C76068B32C9140EC55CE8B1C33F276 /* Pods-Sunni */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EE1CFBFC3A86784303D4F94B527619D /* HideKeyboardWhenTappedAround */ = {
+			isa = PBXGroup;
+			children = (
+				382CF77A1A902E3C7190F6AA31CBDAA6 /* ViewController.swift */,
+				0FBA46951512C2FC94B83737AB7FB5BC /* Support Files */,
+			);
+			path = HideKeyboardWhenTappedAround;
+			sourceTree = "<group>";
+		};
+		4602A75F00FA6139036E0D15E7F06623 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE1CFBFC3A86784303D4F94B527619D /* HideKeyboardWhenTappedAround */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		543EE3E943702FD0E1AD078F6EAA0E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EEAE1B875BB43B2E4EAE35DED940C0 /* HideKeyboardWhenTappedAround.framework */,
+				FCFAFC5470FE1387ABAD746801F92909 /* Pods_Sunni.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4602A75F00FA6139036E0D15E7F06623 /* Pods */,
+				543EE3E943702FD0E1AD078F6EAA0E6B /* Products */,
+				356F66D9C09EB742FBBDD19230E671CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2069CA0B525E994907C177F0B8D35F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD4F3FD6E5992021778E4995D619DB /* HideKeyboardWhenTappedAround-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F831F3B67A7A73FEC248F0A6D56040DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511AE939FDD8FAF848468196740F288C /* Pods-Sunni-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CE763454B5AADA13CB79D7F7954634C /* Pods-Sunni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BBCE6C382ABFB63FBFC4C00DD7DF69C /* Build configuration list for PBXNativeTarget "Pods-Sunni" */;
+			buildPhases = (
+				F831F3B67A7A73FEC248F0A6D56040DE /* Headers */,
+				CFB5FFE5522B48635033192B3D200E06 /* Sources */,
+				80C0F2EF64027D2EA035FD566AED3718 /* Frameworks */,
+				F51F7285D852DD7116A54A15A4119355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699EAD73369CAEAB842A35E100A6C672 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sunni";
+			productName = "Pods-Sunni";
+			productReference = FCFAFC5470FE1387ABAD746801F92909 /* Pods_Sunni.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E03B0815387AE5EA630CCBF6F803594 /* HideKeyboardWhenTappedAround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467C4186B4A248028A1E4D73CFDC531A /* Build configuration list for PBXNativeTarget "HideKeyboardWhenTappedAround" */;
+			buildPhases = (
+				D2069CA0B525E994907C177F0B8D35F4 /* Headers */,
+				0BB87A8C7811087F9590A7B880DCFC36 /* Sources */,
+				65788678D11CA1615C461AA78D0A6E22 /* Frameworks */,
+				8835F7CA5F472628F688B6B5F8BCA900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideKeyboardWhenTappedAround;
+			productName = HideKeyboardWhenTappedAround;
+			productReference = A3EEAE1B875BB43B2E4EAE35DED940C0 /* HideKeyboardWhenTappedAround.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					5E03B0815387AE5EA630CCBF6F803594 = {
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 543EE3E943702FD0E1AD078F6EAA0E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E03B0815387AE5EA630CCBF6F803594 /* HideKeyboardWhenTappedAround */,
+				2CE763454B5AADA13CB79D7F7954634C /* Pods-Sunni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8835F7CA5F472628F688B6B5F8BCA900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51F7285D852DD7116A54A15A4119355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB87A8C7811087F9590A7B880DCFC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA032DB7432785BA6CB470F4B3BED80 /* HideKeyboardWhenTappedAround-dummy.m in Sources */,
+				A1849D5E82E99E25CC59BA5C46180C45 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB5FFE5522B48635033192B3D200E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39A72B9F10196D460CFAB4404367182 /* Pods-Sunni-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699EAD73369CAEAB842A35E100A6C672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HideKeyboardWhenTappedAround;
+			target = 5E03B0815387AE5EA630CCBF6F803594 /* HideKeyboardWhenTappedAround */;
+			targetProxy = 75D532B66C127678B38F74F1036CCDEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		114BD10F6A9B15C410B16B7D0C971C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC01AE8C8D1A845FD22D0223725D571F /* Pods-Sunni.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sunni/Pods-Sunni-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sunni/Pods-Sunni.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3846C672236B0485769BBA48E4DFA106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2FC65446BB7A5E977B936310CAD736 /* HideKeyboardWhenTappedAround.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HideKeyboardWhenTappedAround/HideKeyboardWhenTappedAround-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HideKeyboardWhenTappedAround/HideKeyboardWhenTappedAround-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HideKeyboardWhenTappedAround/HideKeyboardWhenTappedAround.modulemap";
+				PRODUCT_MODULE_NAME = HideKeyboardWhenTappedAround;
+				PRODUCT_NAME = HideKeyboardWhenTappedAround;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		425DE07476ABACF9575D1A4710214E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF62E124AC07E8B0C77841595672BFA /* HideKeyboardWhenTappedAround.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HideKeyboardWhenTappedAround/HideKeyboardWhenTappedAround-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HideKeyboardWhenTappedAround/HideKeyboardWhenTappedAround-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HideKeyboardWhenTappedAround/HideKeyboardWhenTappedAround.modulemap";
+				PRODUCT_MODULE_NAME = HideKeyboardWhenTappedAround;
+				PRODUCT_NAME = HideKeyboardWhenTappedAround;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F3912FA819BB4DF4CAF0AE34C0F3CA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5D112788D096BFBD20C98567B0133E /* Pods-Sunni.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sunni/Pods-Sunni-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sunni/Pods-Sunni.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467C4186B4A248028A1E4D73CFDC531A /* Build configuration list for PBXNativeTarget "HideKeyboardWhenTappedAround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425DE07476ABACF9575D1A4710214E26 /* Debug */,
+				3846C672236B0485769BBA48E4DFA106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BBCE6C382ABFB63FBFC4C00DD7DF69C /* Build configuration list for PBXNativeTarget "Pods-Sunni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3912FA819BB4DF4CAF0AE34C0F3CA74 /* Debug */,
+				114BD10F6A9B15C410B16B7D0C971C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

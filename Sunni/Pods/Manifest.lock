@@ -1,0 +1,16 @@
+PODS:
+  - HideKeyboardWhenTappedAround (1.0.0)
+
+DEPENDENCIES:
+  - HideKeyboardWhenTappedAround
+
+SPEC REPOS:
+  trunk:
+    - HideKeyboardWhenTappedAround
+
+SPEC CHECKSUMS:
+  HideKeyboardWhenTappedAround: f46822ccfec1baefe800f2e086964800d1ca1175
+
+PODFILE CHECKSUM: cb71fcf480c3a3a1442d0ccdba914b75037d3d85
+
+COCOAPODS: 1.9.1

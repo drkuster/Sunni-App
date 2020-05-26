@@ -1,0 +1,8 @@
+platform :ios, '12.0'
+
+target 'Sunni' do
+
+  use_frameworks!
+  pod 'HideKeyboardWhenTappedAround'
+
+end

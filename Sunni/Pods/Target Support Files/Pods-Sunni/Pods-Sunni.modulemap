@@ -1,0 +1,6 @@
+framework module Pods_Sunni {
+  umbrella header "Pods-Sunni-umbrella.h"
+
+  export *
+  module * { export * }
+}
